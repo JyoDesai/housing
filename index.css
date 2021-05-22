@@ -1,0 +1,57 @@
+body{
+}
+.nav-link {
+    color: #fff !important;
+}
+.nav-left-marg{
+	margin-left: 150px;
+}
+.navbar-dark .navbar-nav .sign_up_btn{
+	background-color: #fff;
+	border-radius: 16px;
+}
+.banner-div{
+	background-image: url('slider-img.jpg');
+	background-size: cover;
+	height: 450px;
+	display: flex;
+	align-items: center;
+}
+.slider-modal {
+	background-color: #fff;
+	color: #666;
+	width: 550px;
+}
+.callout-card {
+	    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 16%), 0 2px 4px 0 rgb(0 0 0 / 12%);
+}
+.sale_property{
+	border-bottom: 5px solid #000;
+}
+p .content{
+	font-size: 12px;
+	color: #aaa;
+	margin-bottom: 0px !important;
+}
+p.street-description{
+	font-size: 14px;
+	color: #aaa;
+}
+
+.footer{
+	background-color: #000;
+}
+.sale_property_title{
+	color: #000;
+	border-left: 8px solid #000;
+}
+.bg-dark{
+	background-color: #000 !important;
+}
+
+/*===========media query============*/
+@media only screen and (max-width: 1200px) {
+	.nav-left-marg{
+		margin-left: 0px;
+	}
+}
