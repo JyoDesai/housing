@@ -1,5 +1,8 @@
 body{
 }
+.navbar-dark{
+	height: 80px;
+}
 .nav-link {
     color: #fff !important;
 }
@@ -13,7 +16,7 @@ body{
 .banner-div{
 	background-image: url('slider-img.jpg');
 	background-size: cover;
-	height: 450px;
+	height: 570px;
 	display: flex;
 	align-items: center;
 }
@@ -53,5 +56,9 @@ p.street-description{
 @media only screen and (max-width: 1200px) {
 	.nav-left-marg{
 		margin-left: 0px;
+	}
+	.slider-modal {
+		
+		width: auto;
 	}
 }
